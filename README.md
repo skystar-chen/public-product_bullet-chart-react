@@ -3,7 +3,7 @@
 支持自定义配置柱子/标线的颜色、宽度，分割的段数，气泡的UI、位置；刻度配置支持自定义刻度文案单位转换、正负数、0刻度居中等效果。
 
 效果展示：
-![demonstration]()
+![demonstration](https://github.com/skystar-chen/public-product_bullet-chart-react/blob/main/assets/images/demonstration.gif)
 
 > 作者：陈星~
 

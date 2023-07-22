@@ -9,17 +9,24 @@ const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <React.StrictMode>
     <BulletChart
+      style={{
+        width: 'calc(100% - 600px)',
+        margin: '100px 300px'
+      }}
       option={{
         mainBar: {
-          value: 1,
+          value: 250,
         },
         bgBar: {
-          value: 2,
+          value: -220,
         },
         markLine: {
-          value: 3,
+          value: 200,
+          barWidth: 30,
         },
       }}
+      isTooltipHalfAdaptPosition
+      isCenterZeroLabel
     />
   </React.StrictMode>
 ); */

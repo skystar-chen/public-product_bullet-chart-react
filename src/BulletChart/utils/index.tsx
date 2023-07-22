@@ -189,6 +189,40 @@ export const getSuitMaxNumber = (
 /* export const defaultTooltipFormatter = (data: any) => {
   return (
     <section className="bullet-chart-tooltip-body">
+      <h3 className="tooltip-title">Title</h3>
+      <hgroup className="tooltip-body">
+        <aside className="tooltip-body-left">
+          <section className="tooltip-body-left-item">
+            <i className="tooltip-row-dot" style={{backgroundColor: '#4C7FE7'}}></i>
+            <span className="tooltip-row-info">Name A</span>
+          </section>
+          <section className="tooltip-body-left-item">
+            <i className="tooltip-row-dot" style={{backgroundColor: '#D4E8FF'}}></i>
+            <span className="tooltip-row-info">Name B</span>
+          </section>
+          <section className="tooltip-body-left-item">
+            <i className="tooltip-row-dot" style={{backgroundColor: '#6A7597'}}></i>
+            <span className="tooltip-row-info">Name C</span>
+          </section>
+          <section className="tooltip-body-left-item">
+            <span className="tooltip-row-info">Name Name Name ABC</span>
+          </section>
+        </aside>
+        <article className="tooltip-body-right">
+          <section className="tooltip-body-right-item">
+            <span className="tooltip-row-value">11</span>
+          </section>
+          <section className="tooltip-body-right-item">
+            <span className="tooltip-row-value">22</span>
+          </section>
+          <section className="tooltip-body-right-item">
+            <span className="tooltip-row-value">33</span>
+          </section>
+          <section className="tooltip-body-right-item">
+            <span className="tooltip-row-value">100</span>
+          </section>
+        </article>
+      </hgroup>
     </section>
   );
 } */
