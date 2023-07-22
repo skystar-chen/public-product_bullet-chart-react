@@ -2,6 +2,7 @@
 /src
 /public
 /config
+/assets
 .babelrc
 .gitignore
 tsconfig.json
