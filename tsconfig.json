@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib/", // 打包到的目录
+    "declaration": true, // 是否生成声明文件
+    "declarationDir": "./lib/", // 声明文件打包的位置
+    "declarationMap": false, // 是否生成声明文件map文件
+    "module": "esnext",
+    "target": "es5",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "importHelpers": false,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "baseUrl": "./",
+    "strict": true,
+    "paths": {
+      "@/*": ["src/*"],
+    },
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "noEmitOnError": false,
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.d.ts",
+    "typings.d.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "es",
+    "dist",
+    "**/__test__",
+    "test",
+    "docs",
+    "tests",
+    "testDemo",
+  ]
+}

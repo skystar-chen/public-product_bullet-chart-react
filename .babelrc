@@ -1,0 +1,15 @@
+{
+  "presets":[
+    ["@babel/preset-env", {
+      "useBuiltIns": "entry", //如果用了@babel/polyfill的话，配置这个属性可以将@babel/polyfill按需引入
+      "corejs": 3
+    }],
+    "@babel/preset-react", // 处理jsx
+    "@babel/preset-typescript" // 将ts转js
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-optional-chaining"
+  ]
+}
